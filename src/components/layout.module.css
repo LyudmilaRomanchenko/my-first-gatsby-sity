@@ -1,13 +1,26 @@
 .container {
+    position: relative;
     margin: auto;
     max-width: 500px;
     font-family: sans-serif;
-    /* outline: 1px solid red; */
+    z-index: 111;
+    outline: 1px solid red;
 }
 
 .heading {
     color: rebeccapurple;
 }
+
+.nav {
+    z-index: 111;
+    outline: 5px solid rgb(12, 128, 55);
+    position: absolute;
+    top: 0;
+}
+/* .navContainer {
+    z-index: 111;
+    outline: 5px solid rgb(12, 128, 55);
+} */
 
 .links {
     display: flex;
@@ -24,4 +37,8 @@
 
 .text {
     color: rgb(0, 0, 0);
+}
+
+.cover {
+    z-index: 0;
 }
